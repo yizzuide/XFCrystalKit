@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014E043A041D981B1ECE145E8FE0BDAC /* UIViewController+XFSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 7316D730CD94FD1C84EE530EBF7B1407 /* UIViewController+XFSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03459029236527B0B09DE05978EA7925 /* XFTableViewAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2695B47F4B2A00AAA4857324BB19768C /* XFTableViewAgent.m */; };
+		06F27F0FF777BDE90F06960FDB8AD2AD /* XFSettingInfoCountCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ACCA9769E04E2DBE0BD69C941D4B0E9 /* XFSettingInfoCountCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		138635BF414E830988AFB13A0598E2A6 /* XFSettingInfoDotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5869FB8A5578DA8ACA6142290588DA7 /* XFSettingInfoDotCell.m */; };
+		262216F23EC7CE83FAE9825467A3A502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2916AB2C9686194691D3C2E0D7066018 /* XFSettingItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 82130C498732E3B772ADC81148986476 /* XFSettingItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30849A47D3FCB13B4BF067D31363E779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		333D406B991791153763592464E46D3D /* XFSettingAssistImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DF38943EE8EAB60A3A9E8EEC7B5967 /* XFSettingAssistImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39DD3CCF09453F915B29AF2B51802B11 /* XFSettingInfoCountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10030AF2E2F2AA739691554977277D17 /* XFSettingInfoCountCell.m */; };
+		3DF52022775ACD1F6AC7334E72345C86 /* XFSettingSwitchItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 124F450061A47A079F9816CB06DE02A3 /* XFSettingSwitchItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42781DFAA04664E4A2AA29BF516A5416 /* XFSettingInfoDotCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 35ADF5908CC791B8D3A6EB0DEEDB068D /* XFSettingInfoDotCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		483E4A890268794232A490BFA23ED5A9 /* UIViewController+XFSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 820673603072B5BB88CFC937F4782259 /* UIViewController+XFSettings.m */; };
+		4FB174F6569BA322F7467793C533D916 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		54CB5E2803C3F378872D1B3E840E02E4 /* XFSettingInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF92BE2B86BF9276C973300B8E0F3030 /* XFSettingInfoCell.m */; };
+		5DF67D1F1B436EEDB4A61E830F5694B5 /* XFSettingInfoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D7695EF3422AEF41BD947B7DAF4831C8 /* XFSettingInfoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6064392B4E1B525FE2E81AA56BE00510 /* XFSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EEB0882C6D0E4BB6A2B90EA31A7F77 /* XFSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62F87836790CB3817D188956E84F02C1 /* XFSettingAssistImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 117FA5AF0BE67BBD5A773099EE475D6C /* XFSettingAssistImageItem.m */; };
+		63565BA0034E09ABF5AE594B89221D27 /* XFCellAttrsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C165AA5592939B4B9ADFBDFD3CE5683 /* XFCellAttrsData.m */; };
+		66B0118162BFB88BBE3A396705561026 /* XFTableViewAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C199238EDC65EA4E41ABBAB3583CBC3 /* XFTableViewAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D4F6D87E8CE0BF882D7E7F8601358BF /* XFSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F802659406C5828D2D59B257CCC01A7 /* XFSettingCell.m */; };
+		72D017F1D14B36B1431FD247CAB8452D /* XFSettingSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EDACD024EDB8701549426CDA3F9161 /* XFSettingSwitchItem.m */; };
+		7BC40E42F425D4A762B2A708D3BC1BB9 /* XFSettingAssistImageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F929E322110D663A2449F1C4B66A2D /* XFSettingAssistImageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7ABA3C74D55F838C81D98E148C57C3 /* XFSettingTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9201B76F1D8AF909ADDA3EF87C8C7BE7 /* XFSettingTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF474B0295924FB617A75F05F9010E2 /* XFSettingTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F66F911447F0B8FC1DD5AE83CEDF9DFB /* XFSettingTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85FB16BF2537DF9B92E16A51AAE1E117 /* XFSettingCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFC8BBBC8F1990C344A7954A7175760 /* XFSettingCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87B81BF7AC4143808D49232408207B09 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CD928E01ED5B8BF94DD2A8268D9F74 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-dummy.m */; };
+		8D7BDBAFC8B5E941172A5F89B9D9038F /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0431940F72714F78DB2C2F6E23EAA14 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-dummy.m */; };
+		917A4C2D4946E7E27CCCBAA6A31F1020 /* Pods-XFCrystalKitExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD736ABA57F29A58EAE836D0D0381D5 /* Pods-XFCrystalKitExample-dummy.m */; };
+		9769456AB78153AFD26C3B09DE1D5B62 /* XFCellAttrsData.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7C277DC486129276A746809F133063 /* XFCellAttrsData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97C5EEFFCE9BF016136BB5DA1E3FECC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9FB7FA6D8CC7963F6386BDE612AAF7C7 /* XFSettingArrowItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F43852821E0B8C0A533B168C19724E47 /* XFSettingArrowItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9428A62DC9E42BFD2059929B20FC743 /* XFSettings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3C0D406CC8130927DD2E4A198704E /* XFSettings-dummy.m */; };
+		B170CF66F5E64746B3893D1C54168800 /* XFSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CEA52DC494F2CC0108AA89A20C2BAB /* XFSettingGroup.m */; };
+		B3521015F1B3766D363B1C02B650E0F5 /* XFSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAEBE75098782C6AAA9FDBB891AF5B2 /* XFSettingTableViewController.m */; };
+		BF243E2124B2BE6EDF5AF55187B4D690 /* XFSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E7F6500D4AD76B7FFC91B80791E9D8 /* XFSettingItem.m */; };
+		C0F1CAF30297181834BA4101FF0B8839 /* XFSettingGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F58CF361DD9A12392266D5957FBDDA /* XFSettingGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1C5E5ED873C08461A0AD49BE4FFB266 /* XFSettingsProt.h in Headers */ = {isa = PBXBuildFile; fileRef = 71511843E1BCD53997FE14F9A2D38984 /* XFSettingsProt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2C37DD038BD71F284D48CDDCA2B785 /* XFSettingInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D60725778E3DA47BAD9B7E4BBE48C4B /* XFSettingInfoItem.m */; };
+		D68E18189806AF328058881ACBE7E77F /* XFSettingArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9403B3F7E218DE6AFD6BBD60804F5 /* XFSettingArrowItem.m */; };
+		DF36AE5200B1790570CCC9FB4CFBFE46 /* XFSettingAssistImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7BF5CBB2CCB37AC3A8FB3CAEC31F16 /* XFSettingAssistImageCell.m */; };
+		FA48C30F5992D1511AEC10C64A5E70E2 /* XFSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = AA76EF6FB39D1D70D3C6000F05E3564A /* XFSettings.m */; };
+		FE5DD94BAB03EA66DBA116F0F7C7A612 /* XFSettingInfoItem.h in Headers */ = {isa = PBXBuildFile; fileRef = BE84A76DAD54533357D66EE058440B76 /* XFSettingInfoItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BB422B958A67D89A4A83DA6E32C7439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 471A2B7AB925F27571A0D6DD30A8F2C2;
+			remoteInfo = XFSettings;
+		};
+		CB01D10574F84ADB172A1CE2079F8667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 471A2B7AB925F27571A0D6DD30A8F2C2;
+			remoteInfo = XFSettings;
+		};
+		E4C46D28C89F4D0085B04C9B85F88537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 471A2B7AB925F27571A0D6DD30A8F2C2;
+			remoteInfo = XFSettings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E7CAF1CED04F55FA16D61E54AF577F /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0972FD84C052AA67BC7B5AB1413902D4 /* XFSettings.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFSettings.xcconfig; sourceTree = "<group>"; };
+		0ACD0D5174760922F2FE054CCE8471EB /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C08164370BA843E58A94498EB1580C9 /* libPods-XFCrystalKitExample-XFCrystalKitExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XFCrystalKitExample-XFCrystalKitExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10030AF2E2F2AA739691554977277D17 /* XFSettingInfoCountCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettingInfoCountCell.m; path = XFSettings/XFSettingInfoCountCell.m; sourceTree = "<group>"; };
+		10F5EA055A4AEDA3DBE65A1AD5DF8CE2 /* libXFSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXFSettings.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		117FA5AF0BE67BBD5A773099EE475D6C /* XFSettingAssistImageItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettingAssistImageItem.m; path = XFSettings/XFSettingAssistImageItem.m; sourceTree = "<group>"; };
+		124F450061A47A079F9816CB06DE02A3 /* XFSettingSwitchItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingSwitchItem.h; path = XFSettings/XFSettingSwitchItem.h; sourceTree = "<group>"; };
+		13EE9D183573A283628B38BF4E27D904 /* Pods-XFCrystalKitExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFCrystalKitExample-resources.sh"; sourceTree = "<group>"; };
+		1ACCA9769E04E2DBE0BD69C941D4B0E9 /* XFSettingInfoCountCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingInfoCountCell.h; path = XFSettings/XFSettingInfoCountCell.h; sourceTree = "<group>"; };
+		1B68FEC09D7C7D24992B051489F354BF /* Pods-XFCrystalKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFCrystalKitExample.release.xcconfig"; sourceTree = "<group>"; };
+		1BB3C0D406CC8130927DD2E4A198704E /* XFSettings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XFSettings-dummy.m"; sourceTree = "<group>"; };
+		1F802659406C5828D2D59B257CCC01A7 /* XFSettingCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettingCell.m; path = XFSettings/XFSettingCell.m; sourceTree = "<group>"; };
+		22EEB0882C6D0E4BB6A2B90EA31A7F77 /* XFSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettings.h; path = XFSettings/XFSettings.h; sourceTree = "<group>"; };
+		2695B47F4B2A00AAA4857324BB19768C /* XFTableViewAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFTableViewAgent.m; path = XFSettings/XFTableViewAgent.m; sourceTree = "<group>"; };
+		281AA09EC9004D529D304EB937D06B1E /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		2925FAF8C0AE011A7C37BEB68C4BAF94 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C165AA5592939B4B9ADFBDFD3CE5683 /* XFCellAttrsData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFCellAttrsData.m; path = XFSettings/XFCellAttrsData.m; sourceTree = "<group>"; };
+		2FD736ABA57F29A58EAE836D0D0381D5 /* Pods-XFCrystalKitExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFCrystalKitExample-dummy.m"; sourceTree = "<group>"; };
+		35ADF5908CC791B8D3A6EB0DEEDB068D /* XFSettingInfoDotCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingInfoDotCell.h; path = XFSettings/XFSettingInfoDotCell.h; sourceTree = "<group>"; };
+		3C199238EDC65EA4E41ABBAB3583CBC3 /* XFTableViewAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFTableViewAgent.h; path = XFSettings/XFTableViewAgent.h; sourceTree = "<group>"; };
+		43F929E322110D663A2449F1C4B66A2D /* XFSettingAssistImageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingAssistImageItem.h; path = XFSettings/XFSettingAssistImageItem.h; sourceTree = "<group>"; };
+		4D60725778E3DA47BAD9B7E4BBE48C4B /* XFSettingInfoItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettingInfoItem.m; path = XFSettings/XFSettingInfoItem.m; sourceTree = "<group>"; };
+		4FB9403B3F7E218DE6AFD6BBD60804F5 /* XFSettingArrowItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettingArrowItem.m; path = XFSettings/XFSettingArrowItem.m; sourceTree = "<group>"; };
+		56F58CF361DD9A12392266D5957FBDDA /* XFSettingGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingGroup.h; path = XFSettings/XFSettingGroup.h; sourceTree = "<group>"; };
+		63FF6085C5A9A2BEE650EEF326F606EF /* XFSettings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFSettings-prefix.pch"; sourceTree = "<group>"; };
+		6EFC8BBBC8F1990C344A7954A7175760 /* XFSettingCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingCell.h; path = XFSettings/XFSettingCell.h; sourceTree = "<group>"; };
+		71511843E1BCD53997FE14F9A2D38984 /* XFSettingsProt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingsProt.h; path = XFSettings/XFSettingsProt.h; sourceTree = "<group>"; };
+		7316D730CD94FD1C84EE530EBF7B1407 /* UIViewController+XFSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+XFSettings.h"; path = "XFSettings/UIViewController+XFSettings.h"; sourceTree = "<group>"; };
+		820673603072B5BB88CFC937F4782259 /* UIViewController+XFSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+XFSettings.m"; path = "XFSettings/UIViewController+XFSettings.m"; sourceTree = "<group>"; };
+		82130C498732E3B772ADC81148986476 /* XFSettingItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingItem.h; path = XFSettings/XFSettingItem.h; sourceTree = "<group>"; };
+		86C87D46ACE979B4F250FECCE0E0A162 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9201B76F1D8AF909ADDA3EF87C8C7BE7 /* XFSettingTableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingTableViewDataSource.h; path = XFSettings/XFSettingTableViewDataSource.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B73B62FA29B0028FE8F115DDB0D0A26 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		9E0408221B6ED65010975BD3856973CB /* Pods-XFCrystalKitExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFCrystalKitExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E0AB94DCCF898BF4457BFA500CFC904 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleTests-resources.sh"; sourceTree = "<group>"; };
+		A00732639905D3A9FB8F38E422E5F308 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-resources.sh"; sourceTree = "<group>"; };
+		A43DF910E34FF12D64433A29F02060DA /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E7F6500D4AD76B7FFC91B80791E9D8 /* XFSettingItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettingItem.m; path = XFSettings/XFSettingItem.m; sourceTree = "<group>"; };
+		AA76EF6FB39D1D70D3C6000F05E3564A /* XFSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettings.m; path = XFSettings/XFSettings.m; sourceTree = "<group>"; };
+		ADB3937588CC3B1D76E98658742A9F12 /* Pods-XFCrystalKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFCrystalKitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		AF7BF5CBB2CCB37AC3A8FB3CAEC31F16 /* XFSettingAssistImageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettingAssistImageCell.m; path = XFSettings/XFSettingAssistImageCell.m; sourceTree = "<group>"; };
+		BE84A76DAD54533357D66EE058440B76 /* XFSettingInfoItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingInfoItem.h; path = XFSettings/XFSettingInfoItem.h; sourceTree = "<group>"; };
+		CD69137411947C31CAEA2208944426F9 /* Pods-XFCrystalKitExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFCrystalKitExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFAEBE75098782C6AAA9FDBB891AF5B2 /* XFSettingTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettingTableViewController.m; path = XFSettings/XFSettingTableViewController.m; sourceTree = "<group>"; };
+		D7695EF3422AEF41BD947B7DAF4831C8 /* XFSettingInfoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingInfoCell.h; path = XFSettings/XFSettingInfoCell.h; sourceTree = "<group>"; };
+		D7EDACD024EDB8701549426CDA3F9161 /* XFSettingSwitchItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettingSwitchItem.m; path = XFSettings/XFSettingSwitchItem.m; sourceTree = "<group>"; };
+		DC7C277DC486129276A746809F133063 /* XFCellAttrsData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFCellAttrsData.h; path = XFSettings/XFCellAttrsData.h; sourceTree = "<group>"; };
+		DF92BE2B86BF9276C973300B8E0F3030 /* XFSettingInfoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettingInfoCell.m; path = XFSettings/XFSettingInfoCell.m; sourceTree = "<group>"; };
+		E0431940F72714F78DB2C2F6E23EAA14 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		E0CD928E01ED5B8BF94DD2A8268D9F74 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleTests-dummy.m"; sourceTree = "<group>"; };
+		E3CEA52DC494F2CC0108AA89A20C2BAB /* XFSettingGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettingGroup.m; path = XFSettings/XFSettingGroup.m; sourceTree = "<group>"; };
+		E556CAECE2D44F9DC20C89B476066F86 /* libPods-XFCrystalKitExample-XFCrystalKitExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XFCrystalKitExample-XFCrystalKitExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5869FB8A5578DA8ACA6142290588DA7 /* XFSettingInfoDotCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSettingInfoDotCell.m; path = XFSettings/XFSettingInfoDotCell.m; sourceTree = "<group>"; };
+		EB885DDA963E31B7B12C657FE8A51590 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F21E7453CD00016869FC3E7633F00543 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F43852821E0B8C0A533B168C19724E47 /* XFSettingArrowItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingArrowItem.h; path = XFSettings/XFSettingArrowItem.h; sourceTree = "<group>"; };
+		F6546DA38D393B58241996E39F59FA31 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F66F911447F0B8FC1DD5AE83CEDF9DFB /* XFSettingTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingTableViewController.h; path = XFSettings/XFSettingTableViewController.h; sourceTree = "<group>"; };
+		F8A1FB5C2CCD7C9E5603A27D5BF78B45 /* libPods-XFCrystalKitExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XFCrystalKitExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DF38943EE8EAB60A3A9E8EEC7B5967 /* XFSettingAssistImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSettingAssistImageCell.h; path = XFSettings/XFSettingAssistImageCell.h; sourceTree = "<group>"; };
+		FC8686C7EA162BF9FED2B4104171F1E1 /* Pods-XFCrystalKitExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFCrystalKitExample-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		120E96EA39899439AA87FD58FF0FFB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C5EEFFCE9BF016136BB5DA1E3FECC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27906E69C08AA5A5F71B657DFAA0E93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB174F6569BA322F7467793C533D916 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF4D9D4FBF4E614C6F27C6CF68698F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30849A47D3FCB13B4BF067D31363E779 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4824C5E5B53B81545B1AB027EE29668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262216F23EC7CE83FAE9825467A3A502 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5BFB239FF4B4ABBF3542474F668455 /* Pods-XFCrystalKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				CD69137411947C31CAEA2208944426F9 /* Pods-XFCrystalKitExample-acknowledgements.markdown */,
+				9E0408221B6ED65010975BD3856973CB /* Pods-XFCrystalKitExample-acknowledgements.plist */,
+				2FD736ABA57F29A58EAE836D0D0381D5 /* Pods-XFCrystalKitExample-dummy.m */,
+				FC8686C7EA162BF9FED2B4104171F1E1 /* Pods-XFCrystalKitExample-frameworks.sh */,
+				13EE9D183573A283628B38BF4E27D904 /* Pods-XFCrystalKitExample-resources.sh */,
+				ADB3937588CC3B1D76E98658742A9F12 /* Pods-XFCrystalKitExample.debug.xcconfig */,
+				1B68FEC09D7C7D24992B051489F354BF /* Pods-XFCrystalKitExample.release.xcconfig */,
+			);
+			name = "Pods-XFCrystalKitExample";
+			path = "Target Support Files/Pods-XFCrystalKitExample";
+			sourceTree = "<group>";
+		};
+		12D7D765C10D3AE38A652AFCACD5954F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E79177AE0ABBA7CA86AA1E55BC070EF3 /* XFSettings */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B93FD7C798DEC3963244B9D84A77BDA /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F21E7453CD00016869FC3E7633F00543 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-acknowledgements.markdown */,
+				86C87D46ACE979B4F250FECCE0E0A162 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-acknowledgements.plist */,
+				E0431940F72714F78DB2C2F6E23EAA14 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-dummy.m */,
+				F6546DA38D393B58241996E39F59FA31 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-frameworks.sh */,
+				A00732639905D3A9FB8F38E422E5F308 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-resources.sh */,
+				2925FAF8C0AE011A7C37BEB68C4BAF94 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests.debug.xcconfig */,
+				EB885DDA963E31B7B12C657FE8A51590 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-XFCrystalKitExample-XFCrystalKitExampleUITests";
+			path = "Target Support Files/Pods-XFCrystalKitExample-XFCrystalKitExampleUITests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3F861F240D5BAEEB45872DC9DC8FA556 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0ACD0D5174760922F2FE054CCE8471EB /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-acknowledgements.markdown */,
+				00E7CAF1CED04F55FA16D61E54AF577F /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-acknowledgements.plist */,
+				E0CD928E01ED5B8BF94DD2A8268D9F74 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-dummy.m */,
+				9B73B62FA29B0028FE8F115DDB0D0A26 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-frameworks.sh */,
+				9E0AB94DCCF898BF4457BFA500CFC904 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-resources.sh */,
+				A43DF910E34FF12D64433A29F02060DA /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests.debug.xcconfig */,
+				281AA09EC9004D529D304EB937D06B1E /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests.release.xcconfig */,
+			);
+			name = "Pods-XFCrystalKitExample-XFCrystalKitExampleTests";
+			path = "Target Support Files/Pods-XFCrystalKitExample-XFCrystalKitExampleTests";
+			sourceTree = "<group>";
+		};
+		64E31E2737B4DF014F1A2395E6D9FFF8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A5BFB239FF4B4ABBF3542474F668455 /* Pods-XFCrystalKitExample */,
+				3F861F240D5BAEEB45872DC9DC8FA556 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests */,
+				3B93FD7C798DEC3963244B9D84A77BDA /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				12D7D765C10D3AE38A652AFCACD5954F /* Pods */,
+				D192D168DAB3FBCD588D9CF4E4E56E4A /* Products */,
+				64E31E2737B4DF014F1A2395E6D9FFF8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D192D168DAB3FBCD588D9CF4E4E56E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8A1FB5C2CCD7C9E5603A27D5BF78B45 /* libPods-XFCrystalKitExample.a */,
+				E556CAECE2D44F9DC20C89B476066F86 /* libPods-XFCrystalKitExample-XFCrystalKitExampleTests.a */,
+				0C08164370BA843E58A94498EB1580C9 /* libPods-XFCrystalKitExample-XFCrystalKitExampleUITests.a */,
+				10F5EA055A4AEDA3DBE65A1AD5DF8CE2 /* libXFSettings.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1371C10CDAAC093D31D47BD5DD58616 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0972FD84C052AA67BC7B5AB1413902D4 /* XFSettings.xcconfig */,
+				1BB3C0D406CC8130927DD2E4A198704E /* XFSettings-dummy.m */,
+				63FF6085C5A9A2BEE650EEF326F606EF /* XFSettings-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XFSettings";
+			sourceTree = "<group>";
+		};
+		E79177AE0ABBA7CA86AA1E55BC070EF3 /* XFSettings */ = {
+			isa = PBXGroup;
+			children = (
+				7316D730CD94FD1C84EE530EBF7B1407 /* UIViewController+XFSettings.h */,
+				820673603072B5BB88CFC937F4782259 /* UIViewController+XFSettings.m */,
+				DC7C277DC486129276A746809F133063 /* XFCellAttrsData.h */,
+				2C165AA5592939B4B9ADFBDFD3CE5683 /* XFCellAttrsData.m */,
+				F43852821E0B8C0A533B168C19724E47 /* XFSettingArrowItem.h */,
+				4FB9403B3F7E218DE6AFD6BBD60804F5 /* XFSettingArrowItem.m */,
+				F8DF38943EE8EAB60A3A9E8EEC7B5967 /* XFSettingAssistImageCell.h */,
+				AF7BF5CBB2CCB37AC3A8FB3CAEC31F16 /* XFSettingAssistImageCell.m */,
+				43F929E322110D663A2449F1C4B66A2D /* XFSettingAssistImageItem.h */,
+				117FA5AF0BE67BBD5A773099EE475D6C /* XFSettingAssistImageItem.m */,
+				6EFC8BBBC8F1990C344A7954A7175760 /* XFSettingCell.h */,
+				1F802659406C5828D2D59B257CCC01A7 /* XFSettingCell.m */,
+				56F58CF361DD9A12392266D5957FBDDA /* XFSettingGroup.h */,
+				E3CEA52DC494F2CC0108AA89A20C2BAB /* XFSettingGroup.m */,
+				D7695EF3422AEF41BD947B7DAF4831C8 /* XFSettingInfoCell.h */,
+				DF92BE2B86BF9276C973300B8E0F3030 /* XFSettingInfoCell.m */,
+				1ACCA9769E04E2DBE0BD69C941D4B0E9 /* XFSettingInfoCountCell.h */,
+				10030AF2E2F2AA739691554977277D17 /* XFSettingInfoCountCell.m */,
+				35ADF5908CC791B8D3A6EB0DEEDB068D /* XFSettingInfoDotCell.h */,
+				E5869FB8A5578DA8ACA6142290588DA7 /* XFSettingInfoDotCell.m */,
+				BE84A76DAD54533357D66EE058440B76 /* XFSettingInfoItem.h */,
+				4D60725778E3DA47BAD9B7E4BBE48C4B /* XFSettingInfoItem.m */,
+				82130C498732E3B772ADC81148986476 /* XFSettingItem.h */,
+				A4E7F6500D4AD76B7FFC91B80791E9D8 /* XFSettingItem.m */,
+				22EEB0882C6D0E4BB6A2B90EA31A7F77 /* XFSettings.h */,
+				AA76EF6FB39D1D70D3C6000F05E3564A /* XFSettings.m */,
+				71511843E1BCD53997FE14F9A2D38984 /* XFSettingsProt.h */,
+				124F450061A47A079F9816CB06DE02A3 /* XFSettingSwitchItem.h */,
+				D7EDACD024EDB8701549426CDA3F9161 /* XFSettingSwitchItem.m */,
+				F66F911447F0B8FC1DD5AE83CEDF9DFB /* XFSettingTableViewController.h */,
+				CFAEBE75098782C6AAA9FDBB891AF5B2 /* XFSettingTableViewController.m */,
+				9201B76F1D8AF909ADDA3EF87C8C7BE7 /* XFSettingTableViewDataSource.h */,
+				3C199238EDC65EA4E41ABBAB3583CBC3 /* XFTableViewAgent.h */,
+				2695B47F4B2A00AAA4857324BB19768C /* XFTableViewAgent.m */,
+				E1371C10CDAAC093D31D47BD5DD58616 /* Support Files */,
+			);
+			path = XFSettings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA9BDD3B478058F592A2054036AB7EFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014E043A041D981B1ECE145E8FE0BDAC /* UIViewController+XFSettings.h in Headers */,
+				9769456AB78153AFD26C3B09DE1D5B62 /* XFCellAttrsData.h in Headers */,
+				9FB7FA6D8CC7963F6386BDE612AAF7C7 /* XFSettingArrowItem.h in Headers */,
+				333D406B991791153763592464E46D3D /* XFSettingAssistImageCell.h in Headers */,
+				7BC40E42F425D4A762B2A708D3BC1BB9 /* XFSettingAssistImageItem.h in Headers */,
+				85FB16BF2537DF9B92E16A51AAE1E117 /* XFSettingCell.h in Headers */,
+				C0F1CAF30297181834BA4101FF0B8839 /* XFSettingGroup.h in Headers */,
+				5DF67D1F1B436EEDB4A61E830F5694B5 /* XFSettingInfoCell.h in Headers */,
+				06F27F0FF777BDE90F06960FDB8AD2AD /* XFSettingInfoCountCell.h in Headers */,
+				42781DFAA04664E4A2AA29BF516A5416 /* XFSettingInfoDotCell.h in Headers */,
+				FE5DD94BAB03EA66DBA116F0F7C7A612 /* XFSettingInfoItem.h in Headers */,
+				2916AB2C9686194691D3C2E0D7066018 /* XFSettingItem.h in Headers */,
+				6064392B4E1B525FE2E81AA56BE00510 /* XFSettings.h in Headers */,
+				C1C5E5ED873C08461A0AD49BE4FFB266 /* XFSettingsProt.h in Headers */,
+				3DF52022775ACD1F6AC7334E72345C86 /* XFSettingSwitchItem.h in Headers */,
+				7CF474B0295924FB617A75F05F9010E2 /* XFSettingTableViewController.h in Headers */,
+				7C7ABA3C74D55F838C81D98E148C57C3 /* XFSettingTableViewDataSource.h in Headers */,
+				66B0118162BFB88BBE3A396705561026 /* XFTableViewAgent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08F50682E70059CA610D137E3F4FF5BF /* Pods-XFCrystalKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED11A7FEAFCE33AC46637F8CACF16CE /* Build configuration list for PBXNativeTarget "Pods-XFCrystalKitExample" */;
+			buildPhases = (
+				06F9206EC93C2E8101DA955AF0A88551 /* Sources */,
+				120E96EA39899439AA87FD58FF0FFB74 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30B4E9FA2662EE25C84C41B1A3D7DCB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-XFCrystalKitExample";
+			productName = "Pods-XFCrystalKitExample";
+			productReference = F8A1FB5C2CCD7C9E5603A27D5BF78B45 /* libPods-XFCrystalKitExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0C1DE780FDFA54B2B7FB9E742F8CB955 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D564E8BEB609F7FF7FFD128038BDC0 /* Build configuration list for PBXNativeTarget "Pods-XFCrystalKitExample-XFCrystalKitExampleTests" */;
+			buildPhases = (
+				BB3379E4EE7499A5E94A47083C9375FA /* Sources */,
+				27906E69C08AA5A5F71B657DFAA0E93B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84583356DBB072D7A69699743D1F283B /* PBXTargetDependency */,
+			);
+			name = "Pods-XFCrystalKitExample-XFCrystalKitExampleTests";
+			productName = "Pods-XFCrystalKitExample-XFCrystalKitExampleTests";
+			productReference = E556CAECE2D44F9DC20C89B476066F86 /* libPods-XFCrystalKitExample-XFCrystalKitExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		471A2B7AB925F27571A0D6DD30A8F2C2 /* XFSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB41E9C1AD5A20B6C29E869E0610C3C /* Build configuration list for PBXNativeTarget "XFSettings" */;
+			buildPhases = (
+				12F578B4874729AB5ACD52F17AAE894C /* Sources */,
+				B4824C5E5B53B81545B1AB027EE29668 /* Frameworks */,
+				AA9BDD3B478058F592A2054036AB7EFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XFSettings;
+			productName = XFSettings;
+			productReference = 10F5EA055A4AEDA3DBE65A1AD5DF8CE2 /* libXFSettings.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC75A132F731F8B23B5A2F3179478F13 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71A4E91619403B2F066D6B25A59DF6E /* Build configuration list for PBXNativeTarget "Pods-XFCrystalKitExample-XFCrystalKitExampleUITests" */;
+			buildPhases = (
+				06B8F49B8E6539E98FD9E309B5987BA2 /* Sources */,
+				5FF4D9D4FBF4E614C6F27C6CF68698F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D5CDFE9E15894BFF373FBA03A3241F /* PBXTargetDependency */,
+			);
+			name = "Pods-XFCrystalKitExample-XFCrystalKitExampleUITests";
+			productName = "Pods-XFCrystalKitExample-XFCrystalKitExampleUITests";
+			productReference = 0C08164370BA843E58A94498EB1580C9 /* libPods-XFCrystalKitExample-XFCrystalKitExampleUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D192D168DAB3FBCD588D9CF4E4E56E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08F50682E70059CA610D137E3F4FF5BF /* Pods-XFCrystalKitExample */,
+				0C1DE780FDFA54B2B7FB9E742F8CB955 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests */,
+				FC75A132F731F8B23B5A2F3179478F13 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests */,
+				471A2B7AB925F27571A0D6DD30A8F2C2 /* XFSettings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06B8F49B8E6539E98FD9E309B5987BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7BDBAFC8B5E941172A5F89B9D9038F /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F9206EC93C2E8101DA955AF0A88551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917A4C2D4946E7E27CCCBAA6A31F1020 /* Pods-XFCrystalKitExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F578B4874729AB5ACD52F17AAE894C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483E4A890268794232A490BFA23ED5A9 /* UIViewController+XFSettings.m in Sources */,
+				63565BA0034E09ABF5AE594B89221D27 /* XFCellAttrsData.m in Sources */,
+				D68E18189806AF328058881ACBE7E77F /* XFSettingArrowItem.m in Sources */,
+				DF36AE5200B1790570CCC9FB4CFBFE46 /* XFSettingAssistImageCell.m in Sources */,
+				62F87836790CB3817D188956E84F02C1 /* XFSettingAssistImageItem.m in Sources */,
+				6D4F6D87E8CE0BF882D7E7F8601358BF /* XFSettingCell.m in Sources */,
+				B170CF66F5E64746B3893D1C54168800 /* XFSettingGroup.m in Sources */,
+				54CB5E2803C3F378872D1B3E840E02E4 /* XFSettingInfoCell.m in Sources */,
+				39DD3CCF09453F915B29AF2B51802B11 /* XFSettingInfoCountCell.m in Sources */,
+				138635BF414E830988AFB13A0598E2A6 /* XFSettingInfoDotCell.m in Sources */,
+				CE2C37DD038BD71F284D48CDDCA2B785 /* XFSettingInfoItem.m in Sources */,
+				BF243E2124B2BE6EDF5AF55187B4D690 /* XFSettingItem.m in Sources */,
+				A9428A62DC9E42BFD2059929B20FC743 /* XFSettings-dummy.m in Sources */,
+				FA48C30F5992D1511AEC10C64A5E70E2 /* XFSettings.m in Sources */,
+				72D017F1D14B36B1431FD247CAB8452D /* XFSettingSwitchItem.m in Sources */,
+				B3521015F1B3766D363B1C02B650E0F5 /* XFSettingTableViewController.m in Sources */,
+				03459029236527B0B09DE05978EA7925 /* XFTableViewAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3379E4EE7499A5E94A47083C9375FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B81BF7AC4143808D49232408207B09 /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30B4E9FA2662EE25C84C41B1A3D7DCB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XFSettings;
+			target = 471A2B7AB925F27571A0D6DD30A8F2C2 /* XFSettings */;
+			targetProxy = 2BB422B958A67D89A4A83DA6E32C7439 /* PBXContainerItemProxy */;
+		};
+		78D5CDFE9E15894BFF373FBA03A3241F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XFSettings;
+			target = 471A2B7AB925F27571A0D6DD30A8F2C2 /* XFSettings */;
+			targetProxy = E4C46D28C89F4D0085B04C9B85F88537 /* PBXContainerItemProxy */;
+		};
+		84583356DBB072D7A69699743D1F283B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XFSettings;
+			target = 471A2B7AB925F27571A0D6DD30A8F2C2 /* XFSettings */;
+			targetProxy = CB01D10574F84ADB172A1CE2079F8667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75FFC3ED6DF4EF919422C27CDD69A7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0972FD84C052AA67BC7B5AB1413902D4 /* XFSettings.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XFSettings/XFSettings-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84FD87D359382A37B07149A12641B965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		913A9B481494990CACD5C06DA16F9582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2925FAF8C0AE011A7C37BEB68C4BAF94 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A8DDA917055C3E70C9E3472E4E6046CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB885DDA963E31B7B12C657FE8A51590 /* Pods-XFCrystalKitExample-XFCrystalKitExampleUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BE9160F99753C11A027A44E58EF22EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0972FD84C052AA67BC7B5AB1413902D4 /* XFSettings.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XFSettings/XFSettings-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C39DCCE51F8992AD7FF5C3481F8AF2B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B68FEC09D7C7D24992B051489F354BF /* Pods-XFCrystalKitExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C3BD0DD882E7616A399F5DA170AB9241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 281AA09EC9004D529D304EB937D06B1E /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D1DBD98837B4A706E9389EC306C036AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB3937588CC3B1D76E98658742A9F12 /* Pods-XFCrystalKitExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F594C655D48020EC34B00AA63E001773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF803261E352C14AC3B8E76C11B9C064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43DF910E34FF12D64433A29F02060DA /* Pods-XFCrystalKitExample-XFCrystalKitExampleTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ED11A7FEAFCE33AC46637F8CACF16CE /* Build configuration list for PBXNativeTarget "Pods-XFCrystalKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1DBD98837B4A706E9389EC306C036AE /* Debug */,
+				C39DCCE51F8992AD7FF5C3481F8AF2B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FD87D359382A37B07149A12641B965 /* Debug */,
+				F594C655D48020EC34B00AA63E001773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AB41E9C1AD5A20B6C29E869E0610C3C /* Build configuration list for PBXNativeTarget "XFSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FFC3ED6DF4EF919422C27CDD69A7F2 /* Debug */,
+				BE9160F99753C11A027A44E58EF22EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71A4E91619403B2F066D6B25A59DF6E /* Build configuration list for PBXNativeTarget "Pods-XFCrystalKitExample-XFCrystalKitExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913A9B481494990CACD5C06DA16F9582 /* Debug */,
+				A8DDA917055C3E70C9E3472E4E6046CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D564E8BEB609F7FF7FFD128038BDC0 /* Build configuration list for PBXNativeTarget "Pods-XFCrystalKitExample-XFCrystalKitExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF803261E352C14AC3B8E76C11B9C064 /* Debug */,
+				C3BD0DD882E7616A399F5DA170AB9241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

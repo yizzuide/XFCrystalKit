@@ -1,0 +1,12 @@
+PODS:
+  - XFSettings (2.3.0)
+
+DEPENDENCIES:
+  - XFSettings
+
+SPEC CHECKSUMS:
+  XFSettings: 7054a5a1bc45f4f7ac5cfc921f6bb4ef4684408e
+
+PODFILE CHECKSUM: bfcfcb192c21a16f3e4bf4be654fe13437c00b6d
+
+COCOAPODS: 1.0.1

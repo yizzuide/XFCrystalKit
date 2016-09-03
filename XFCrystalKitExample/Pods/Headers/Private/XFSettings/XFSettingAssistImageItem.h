@@ -1,0 +1,1 @@
+../../../XFSettings/XFSettings/XFSettingAssistImageItem.h
