@@ -12,8 +12,16 @@ Quartz / UIKit 绘画工具箱，汇集常用几何和Context操作方法、图�
 
 ##安装
 1、通过cocoapods
-> pod 'XFCrystalKit','1.0.0'
+```ruby
+pod 'XFCrystalKit','1.0.0'
+```
 
 2、手动加入
 
 把XFCrystalKit整个目录拖入到工程。
+
+##Author
+Yizzuide, fu837014586@163.com
+
+## License
+XFCrystalKit is available under the MIT license. See the LICENSE file for more info.
