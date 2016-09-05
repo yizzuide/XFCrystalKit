@@ -50,7 +50,7 @@ typedef NS_ENUM(NSInteger, XFImageDrawingPattern) {
  *  @param path      路径
  *  @param drawBlock 绘制回调
  */
-+ (void)clipFromPath:(CGPathRef)path drawBlock:(void(^)(CGContextRef context))drawBlock;
++ (void)drawClipPath:(CGPathRef)path drawBlock:(void(^)(CGContextRef context))drawBlock;
 /**
  *  在传入的矩形以中心点为原点开始绘制
  *
@@ -66,7 +66,7 @@ typedef NS_ENUM(NSInteger, XFImageDrawingPattern) {
  *  @param rect      绘制范围
  *  @param drawBlock 绘制回调
  */
-+ (void)decorateDashLineWithPath:(CGPathRef)path drawBlock:(void(^)(CGContextRef context))drawBlock;
++ (void)drawDecorateDashLineWithPath:(CGPathRef)path drawBlock:(void(^)(CGContextRef context))drawBlock;
 
 /**
  *  使用Core Graphics绘制一张图

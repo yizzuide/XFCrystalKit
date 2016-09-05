@@ -658,7 +658,7 @@
     return image;
 }
 // 给矩形绘制虚线边框
-+ (void)decorateDashLineWithPath:(CGPathRef)path drawBlock:(void(^)(CGContextRef context))drawBlock
++ (void)drawDecorateDashLineWithPath:(CGPathRef)path drawBlock:(void(^)(CGContextRef context))drawBlock
 {
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGFloat dashes[] = {6,2};
@@ -694,7 +694,7 @@
     CGContextRestoreGState(context);
 }
 // 通过遮罩路径来绘制内容
-+ (void)clipFromPath:(CGPathRef)path drawBlock:(void(^)(CGContextRef context))drawBlock
++ (void)drawClipPath:(CGPathRef)path drawBlock:(void(^)(CGContextRef context))drawBlock
 {
     CGContextRef context = UIGraphicsGetCurrentContext();
     // Save the state
