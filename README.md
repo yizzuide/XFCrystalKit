@@ -1,7 +1,7 @@
 
 ![XFCrystalKit logo](./ScreenShot/logo.png)
 
-[![CocoaPods](https://img.shields.io/badge/cocoapods-v1.0.0-brightgreen.svg)](http://cocoadocs.org/docsets/XFSettings)
+[![CocoaPods](https://img.shields.io/badge/cocoapods-v1.0.1-brightgreen.svg)](http://cocoadocs.org/docsets/XFSettings)
 ![Language](https://img.shields.io/badge/language-ObjC-orange.svg)
 ![License](https://img.shields.io/npm/l/express.svg)
 ![Version](https://img.shields.io/badge/platform-ios7%2B-green.svg)
@@ -15,7 +15,7 @@ Quartz / UIKit 绘画工具箱，汇集常用几何和Context操作方法、图�
 ##安装
 ###1、使用Cocoapods
 ```ruby
-pod 'XFCrystalKit','1.0.0'
+pod 'XFCrystalKit','1.0.1'
 ```
 ###2、手动加入
 把 `XFCrystalKit` 目录拖入到工程下.
