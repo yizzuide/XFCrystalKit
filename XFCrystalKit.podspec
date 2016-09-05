@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'XFCrystalKit'
-s.version = '1.0.0'
+s.version = '1.0.1'
 s.license = 'MIT'
 s.summary = 'Quartz / UIKit drawing tool for IOS.'
 s.homepage = 'https://github.com/yizzuide/XFCrystalKit'
