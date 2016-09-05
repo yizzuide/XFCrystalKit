@@ -60,7 +60,7 @@ CGFloat PointDistanceFromPoint(CGPoint p1, CGPoint p2);
 ```
 
 ###绘制类`XFCrystal`
-####1、以image开头的方法会返回绘制完成的图片，如：
+####1、以`image`开头的方法会返回绘制完成的图片，如：
 ```objc
 /**
  *  给图像添加文字水印
